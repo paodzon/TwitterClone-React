@@ -1,6 +1,7 @@
 .sidebarMenu{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .sidebarMenu >.MuiSvgIcon-root{
@@ -8,8 +9,8 @@
 }
 
 .sidebarMenu > h2{
-    font-weight: 800;
-    font-size: 20px;
+    font-weight: 650;
+    font-size: 18px;
     margin-right: 20px;
 }
 
