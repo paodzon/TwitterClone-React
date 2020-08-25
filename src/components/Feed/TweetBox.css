@@ -1,0 +1,54 @@
+.tweetBox{
+    display:flex;
+    padding: 5px;
+    border-bottom: 10px solid rgb(230, 236, 240);
+}
+.tweetIMG{
+    width: 50px;
+    border-radius: 50%;
+    object-fit:contain;
+    padding: 10px;
+}
+.tweetInput{
+    padding: 5px;
+}
+.input{
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    width: 490px;
+    font-size: 18px;
+}
+.input::placeholder{
+    color:rgb(101, 119, 134);
+}
+.input:focus{
+    outline:none;
+    border-bottom: 1px solid rgb(230, 236, 240);
+}
+.btnTB{
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    text-transform: inherit !important;
+    margin-left: auto !important;
+    border-radius: 30px !important;
+    border:none !important;
+    font-weight:700 !important; 
+}
+.tweetIcons{
+    display: flex;
+    padding: 10px;
+    color: var(--twitter-color) !important;
+    align-items: center;
+}
+
+.tweetIcons >.MuiSvgIcon-root{
+    padding: 5px;
+}
+
+.icons:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out
+}
