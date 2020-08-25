@@ -8,6 +8,9 @@ body{
   --twitter-background: #e6ecf0;
   overflow: hidden;
 }
+.twitterColor{
+  color: var(--twitter-color);
+}
 
 .app{
   display: flex;

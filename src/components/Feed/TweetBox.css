@@ -3,12 +3,10 @@
     padding: 5px;
     border-bottom: 10px solid rgb(230, 236, 240);
 }
-.tweetIMG{
-    width: 50px;
-    border-radius: 50%;
-    object-fit:contain;
-    padding: 10px;
+.boxIMG{
+    padding:10px;
 }
+
 .tweetInput{
     padding: 5px;
 }
@@ -41,7 +39,9 @@
     color: var(--twitter-color) !important;
     align-items: center;
 }
-
+.tweetBTN{
+    margin-left: auto;
+}
 .tweetIcons >.MuiSvgIcon-root{
     padding: 5px;
 }
